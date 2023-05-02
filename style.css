@@ -238,10 +238,11 @@ main{
     
 }
 .cases_item div{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: flex-end;
+   justify-content: center;
 
 }
 .cases_item h6{
@@ -267,7 +268,7 @@ main{
     background-color: rgb(192, 192, 192, 0.2);
     border-radius: 10px;
     transition: all 1s;
-    
+    opacity: 0.9;
 }
 .cases iframe:hover{   
     width: 100%;   
