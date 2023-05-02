@@ -63,18 +63,20 @@ main{
     padding: 10px;
 }
 .about_me{
-    height: 97vh;
+    min-height: 97vh;
     
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     white-space: pre;
+    gap: 10px;
 }
 .about_me div{
     min-width: 300px;
     max-width: 600px;
     background-color:  rgb(192, 192, 192, 0.2);
     padding: 10px;
+    
     border-radius: 10px;
     text-align: center;
     word-break: break-all;
